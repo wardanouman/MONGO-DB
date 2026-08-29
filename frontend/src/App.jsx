@@ -55,7 +55,7 @@ function App() {
 
   // Helper to pre-fill Update Form when Edit button is clicked
   const handleSelectForUpdate = (item) => {
-    const selectedId = item.id || item._id || '';
+    const selectedId = item.id || item._id || '' ;
     setUpdateId(selectedId);
     setUpdateTitle(item.title || item.name || '');
     setUpdateImage(item.image || '');
